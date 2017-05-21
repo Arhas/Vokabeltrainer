@@ -1,6 +1,6 @@
 package fachwert;
 /*
- * Eine Vokabel besteht aus einem Fachwort und der Zugehörigen Definition. Einmal erstellt, soll das Objekt unverändert bleiben.
+ * Eine Vokabel besteht aus einem Fachwort und der Zugehï¿½rigen Definition. Einmal erstellt, soll das Objekt unverï¿½ndert bleiben.
  */
 public class Vokabel
 {
@@ -15,7 +15,7 @@ public final String DEFINITION;
     }
     
     /**
-     * Gibt die zugehörige Definition zurück
+     * Gibt die zugehï¿½rige Definition zurï¿½ck
      * @return DEFINITION
      */
     public String getDefinition()
@@ -24,11 +24,16 @@ public final String DEFINITION;
     }
     
     /**
-     * Gibt das zugehörige Fachwort zurück
+     * Gibt das zugehï¿½rige Fachwort zurï¿½ck
      * @return FACHWORT
      */
     public String getFachwort()
     {
         return FACHWORT;
+    }
+    
+    public String getFormatiertenString()
+    {
+        return "Vokabel: " + FACHWORT + "\n" + "Definition: " + DEFINITION + "\n";
     }
 }

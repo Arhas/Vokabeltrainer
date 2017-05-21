@@ -18,7 +18,7 @@ public class KategorieTest
         ArrayList<Vokabel> testvokabeln = new ArrayList<Vokabel>();
         testvokabeln.add(new Vokabel("Test", "Dies ist ein Test"));
         testvokabeln.add(new Vokabel("Test2", "Dies ist ein weiterer Test"));
-        _kategorie = new Kategorie(testvokabeln);
+        _kategorie = new Kategorie(testvokabeln, "Testkategorie");
         assertEquals(_kategorie._vokabelliste, testvokabeln);
     }
     
