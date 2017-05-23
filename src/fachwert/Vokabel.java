@@ -32,8 +32,8 @@ public final String DEFINITION;
         return FACHWORT;
     }
     
-    public String getFormatiertenString()
+    public String getSpeicherString()
     {
-        return "Vokabel: " + FACHWORT + "\n" + "Definition: " + DEFINITION + "\n";
+        return FACHWORT + ";" + DEFINITION + "\n";
     }
 }
