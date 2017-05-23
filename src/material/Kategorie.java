@@ -54,7 +54,7 @@ public class Kategorie
     {
         try (FileWriter filewriter = new FileWriter(_pfad, true))
         {
-            filewriter.write(vokabel.getFormatiertenString());
+            filewriter.write(vokabel.getSpeicherString());
         }
         catch (IOException e)
         {
