@@ -5,6 +5,12 @@ import material.Kategorie;
 public class HauptmenüService
 {
 
+    public void starteAbfrage(String kategoriename)
+    {
+        ladeKategorie(kategoriename);
+        
+    }
+
     public void erstelleKategorie(String name)
     {
         
@@ -15,7 +21,7 @@ public class HauptmenüService
         
     }
     
-    public void ladeKategorie(Kategorie kategoriename)
+    public void ladeKategorie(String kategoriename)
     {
         
     }
